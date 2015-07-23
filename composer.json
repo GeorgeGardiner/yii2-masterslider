@@ -1,6 +1,6 @@
 {
     "name": "commonmode/yii2-masterslider",
-    "description": "Yii 2 extension for jQuery Master Slider",
+    "description": "Yii 2 extension for jQuery Master Slider. You will need to purchase a license for Master Slider before you can use this package.",
     "type": "yii2-extension",
     "license": "BSD",
     "authors": [
@@ -11,11 +11,21 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "bower-asset/masterslider": "*"
     },
     "autoload": {
         "psr-4": {
             "commonmode\\yii2-masterslider\\": ""
         }
-    }    
+    },
+    "extra": {
+        "asset-repositories": [
+            {
+                "type": "bower-vcs",
+                "url": "gitlab@gitlab.commonmode.co.uk:web/masterslider.git",
+                "name": "bower-asset/masterslider"
+            }
+        ]    
+    }
 }
