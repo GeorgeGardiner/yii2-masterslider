@@ -1,0 +1,21 @@
+{
+    "name": "commonmode/yii2-masterslider",
+    "description": "Yii 2 extension for jQuery Master Slider",
+    "type": "yii2-extension",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "George Gardiner",
+            "email": "george.gardiner@commonmode.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "commonmode\\yii2-masterslider\\": ""
+        }
+    }    
+}
