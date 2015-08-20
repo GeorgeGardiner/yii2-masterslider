@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "commonmode\\yii2-masterslider\\": ""
+            "commonmode\\masterslider\\": ""
         }
     }
 }
