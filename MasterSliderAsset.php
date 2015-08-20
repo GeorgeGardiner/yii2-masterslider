@@ -16,6 +16,6 @@ class MasterSliderAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'uran1980\yii\assets\jQueryEssential\JqueryEasingAsset
+        'uran1980\yii\assets\jQueryEssential\JqueryEasingAsset'
     ];
 }
